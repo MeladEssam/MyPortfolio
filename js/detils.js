@@ -1,4 +1,4 @@
-let url = window.location.origin.includes("github.com")
+let url = window.location.href.includes("github.com")
   ? "https://github.com/MeladEssam/MyPortfolio/blob/master/projects.json"
   : "../projects.json";
 
