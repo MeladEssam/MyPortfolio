@@ -1,4 +1,8 @@
-let url = `../projects.json`;
+let url = window.location.origin.includes("github.io")
+  ? "https://meladessam.github.io/MyPortfolio/projects.json"
+  : "../projects.json";
+
+// let url = `../projects.json`;
 let projectNameElement = document.querySelector(".project-name span");
 let techsContainer = document.querySelector(".techs .techs-content");
 let techsBtnsElement = document.querySelector(".techs-btns");
