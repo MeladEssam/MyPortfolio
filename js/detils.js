@@ -1,7 +1,16 @@
-let url = window.location.href.includes("github.com")
-  ? "https://github.com/MeladEssam/MyPortfolio/blob/master/projects.json"
-  : "../projects.json";
+// let url = window.location.href.includes("github.com")
+//   ? "https://github.com/MeladEssam/MyPortfolio/blob/master/projects.json"
+//   : "../projects.json";
 
+let url;
+if (
+  window.location.href ==
+  "https://meladessam.github.io/MyPortfolio/project_details.html"
+) {
+  url = "https://meladessam.github.io/MyPortfolio/project_details.html";
+} else {
+  url = "../projects.json";
+}
 // let url = `../projects.json`;
 let projectNameElement = document.querySelector(".project-name span");
 let techsContainer = document.querySelector(".techs .techs-content");
