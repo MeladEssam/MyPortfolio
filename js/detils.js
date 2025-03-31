@@ -3,11 +3,8 @@
 //   : "../projects.json";
 
 let url;
-if (
-  window.location.href ==
-  "https://meladessam.github.io/MyPortfolio/project_details.html"
-) {
-  url = "https://github.com/MeladEssam/MyPortfolio/blob/master/projects.json";
+if (window.location.origin.includes("github.io")) {
+  url = "https://meladessam.github.io/MyPortfolio/projects.json";
 } else {
   url = "../projects.json";
 }
