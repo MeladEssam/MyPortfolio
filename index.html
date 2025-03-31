@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio App</title>
+    <!-- font awesome-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- my css tyle file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <h3 class="my-logo fw-bold">Portfolio</h3>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!-- //toogle bar -->
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link p-2 p-lg-3 active"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <a class="main-btn btn rounded-pill" href="#">Login</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- end navbar section -->
+
+    <div id="home" class="home py-5 d-flex align-items-center">
+      <div class="container">
+        <div class="row flex-column-reverse flex-md-row">
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="home-details">
+              <h1 class="mb-3">Melad <span>Essam</span></h1>
+
+              <h2>I'm Front End Developer</h2>
+              <p class="lh-lg text-white-50 mb-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Ducimus reprehenderit quo quibusdam debitis, repellat nobis
+                earum esse totam asperiores, et maxime omnis sed laudantium
+                consequatur amet harum corporis consequuntur enim?
+              </p>
+
+              <a class="main-btn btn rounded-pill" href="#">Download Cv</a>
+              <div class="social-icons mt-4">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5 mb-md-0">
+            <div class="p-3 image d-flex justify-content-center">
+              <img
+                class="img-fluid rounded-circle"
+                src="imgs/myimage-removebg-preview.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="skills" class="skills py-5 text-center">
+      <div class="container">
+        <div class="skills-title">
+          <h2 class="fw-bold mb-3">My Skills</h2>
+          <p class="mb-0 fs-5">
+            I Have Some Skills In Web Development, I Will Display It For You.
+          </p>
+        </div>
+        <div class="row mt-5 pt-3">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-box py-4 px-3 rounded">
+              <div class="image mb-4">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <div class="skill-info">
+                <h3 class="skill-title text-uppercase mb-2">html</h3>
+                <p class="skill-desc mb-0 text-capitalize">
+                  Html used to structure a web page.
+                </p>
+              </div>
+              <a
+                target="_blank"
+                class="main-btn btn rounded-3 mt-3 w-100 read-more-btn"
+                href="https://www.w3schools.com/html/html_intro.asp"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-box py-4 px-3 rounded">
+              <div class="image mb-4">
+                <i class="fa-solid fa-file-code"></i>
+              </div>
+              <div class="skill-info">
+                <h3 class="skill-title text-uppercase mb-2">css</h3>
+                <p class="skill-desc mb-0 text-capitalize">
+                  CSS used to style an HTML document.
+                </p>
+              </div>
+              <a
+                target="_blank"
+                class="main-btn btn rounded-3 mt-3 w-100 read-more-btn"
+                href="https://www.w3schools.com/css/"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-box py-4 px-3 rounded">
+              <div class="image mb-4">
+                <i class="fa-brands fa-bootstrap"></i>
+              </div>
+              <div class="skill-info">
+                <h3 class="skill-title text-uppercase mb-2">bootstrap</h3>
+                <p class="skill-desc mb-0 text-capitalize">
+                  Bootstrap is a Framework for css make.
+                </p>
+              </div>
+              <a
+                target="_blank"
+                class="main-btn btn rounded-3 mt-3 w-100 read-more-btn"
+                href="https://getbootstrap.com/"
+                >Read More</a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-box py-4 px-3 rounded">
+              <div class="image mb-4">
+                <i class="fa-brands fa-square-js"></i>
+              </div>
+              <div class="skill-info">
+                <h3 class="skill-title text-uppercase mb-2">Javascript</h3>
+                <p class="skill-desc mb-0 text-capitalize">
+                  js make your website more interactive
+                </p>
+              </div>
+              <a
+                target="_blank"
+                class="main-btn btn rounded-3 mt-3 w-100 read-more-btn"
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-box py-4 px-3 rounded">
+              <div class="image mb-4">
+                <i class="fa-brands fa-react"></i>
+              </div>
+              <div class="skill-info">
+                <h3 class="skill-title text-uppercase mb-2">react js</h3>
+                <p class="skill-desc mb-0 text-capitalize">
+                  React is The Framework for web.
+                </p>
+              </div>
+              <a
+                target="_blank"
+                class="main-btn btn rounded-3 mt-3 w-100 read-more-btn"
+                href="https://react.dev/"
+                >Read More</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-box py-4 px-3 rounded">
+              <div class="image mb-4">
+                <i class="fa-brands fa-square-git"></i>
+              </div>
+              <div class="skill-info">
+                <h3 class="skill-title text-uppercase mb-2">git&github</h3>
+                <p class="skill-desc mb-0 text-capitalize">
+                  Git is a distributed version control system.
+                </p>
+              </div>
+              <a
+                target="_blank"
+                class="main-btn btn rounded-3 mt-3 w-100 read-more-btn"
+                href="https://git-scm.com/"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects" class="projects py-5 text-center">
+      <div class="container">
+        <div class="projects-title">
+          <h2 class="fw-bold mb-3">My Projects</h2>
+          <p class="mb-0 fs-5">This Some Projects That I Developed It</p>
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-md-10 col-lg-6">
+            <div class="project-box mb-4 rounded">
+              <div class="project-image">
+                <img
+                  class="img-fluid rounded"
+                  src="imgs/fetchrepos.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="project-info p-4 d-flex justify-content-between align-items-center"
+              >
+                <h3>Fetch Repos</h3>
+                <button
+                  class="main-btn btn rounded-3 more-details"
+                  data-projectId="1"
+                >
+                  More Details
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10 col-lg-6">
+            <div class="project-box mb-4 rounded">
+              <div class="project-image">
+                <img
+                  class="img-fluid rounded"
+                  src="imgs/resturant.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="project-info p-4 d-flex justify-content-between align-items-center"
+              >
+                <h3>Resturant Food</h3>
+                <button
+                  class="main-btn btn rounded-3 more-details"
+                  data-projectId="2"
+                >
+                  More Details
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10 col-lg-6">
+            <div class="project-box mb-4 rounded">
+              <div class="project-image">
+                <img
+                  class="img-fluid rounded"
+                  src="imgs/WeatherApp.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="project-info p-4 d-flex justify-content-between align-items-center"
+              >
+                <h3>Weather App</h3>
+                <button
+                  class="main-btn btn rounded-3 more-details"
+                  data-projectId="3"
+                >
+                  More Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-10 col-lg-6">
+            <div class="project-box mb-4 rounded">
+              <div class="project-image">
+                <img class="img-fluid rounded" src="imgs/cruds.png" alt="" />
+              </div>
+              <div
+                class="project-info p-4 d-flex justify-content-between align-items-center"
+              >
+                <h3>Cruds App</h3>
+                <button
+                  class="main-btn btn rounded-3 more-details"
+                  data-projectId="4"
+                >
+                  More Details
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-10 col-lg-6">
+            <div class="project-box mb-4 rounded">
+              <div class="project-image">
+                <img
+                  class="img-fluid rounded"
+                  src="imgs/postsAndComments.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="project-info p-4 d-flex justify-content-between align-items-center"
+              >
+                <h3>Posts App</h3>
+                <button
+                  class="main-btn btn rounded-3 more-details"
+                  data-projectId="5"
+                >
+                  More Details
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-10 col-lg-6">
+            <div class="project-box mb-4 rounded">
+              <div class="project-image">
+                <img class="img-fluid rounded" src="imgs/AthanApp.png" alt="" />
+              </div>
+              <div
+                class="project-info p-4 d-flex justify-content-between align-items-center"
+              >
+                <h3>Alathan App</h3>
+                <button
+                  class="main-btn btn rounded-3 more-details"
+                  data-projectId="6"
+                >
+                  More Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="contact py-5 text-center">
+      <div class="container">
+        <div class="contact-title">
+          <h2 class="fw-bold mb-3">My Contacts</h2>
+          <p class="mb-0 fs-5">
+            This Ways To Contact Choice Suitable For You To contact With Me
+          </p>
+        </div>
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-5">
+            <div class="contact-box p-3 rounded-3 mb-4 mb-md-0">
+              <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-info">
+                <h2 class="fw-bold fs-1 mt-4 mb-2">Email</h2>
+                <h4>med@gmail.com</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div class="contact-box p-3 rounded-3">
+              <div class="icon">
+                <i class="fa-solid fa-phone-flip"></i>
+              </div>
+              <div class="contact-info">
+                <h2 class="fw-bold fs-1 mt-4 mb-2">Phone</h2>
+                <h4>0123455565</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer  -->
+    <div class="footer p-4 text-center">
+      <div class="container">
+        <h2>Designed by <span class="fw-bold">Melad Essam</span></h2>
+        <h3>Copyrights &copy; 2025</h3>
+      </div>
+    </div>
+
+    <!-- /////////////////////////// -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--Boundle Bootstrap--->
+    <script src="js/all.min.js"></script>
+    <!--Font Awesome-->
+    <!-- my script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

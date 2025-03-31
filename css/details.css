@@ -1,0 +1,80 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --main-color: #7cf03d;
+  --white-color: #fff;
+  --disabled-color: #fff3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--white-color);
+  background-color: var(--bg-color);
+  background-color: var(--second-bg-color);
+}
+.main-btn {
+  background-color: var(--bg-color);
+  background-color: var(--bg-color);
+  padding: 0.5rem 1.5rem;
+  color: var(--main-color);
+  transition: 0.5s;
+  border: 1px solid transparent;
+  outline: none;
+  margin-top: 2px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.project {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+}
+.project .project-title h1 {
+  color: var(--main-color);
+}
+.project .project-box {
+  background: #171a20;
+  background-color: var(--second-bg-color);
+  padding: 20px;
+}
+.project-box .project-name span {
+  color: var(--main-color);
+}
+
+.project .project-name {
+  font-size: 24px !important;
+}
+.techs h2 {
+  font-size: 24px !important;
+  color: var(--main-color);
+}
+.techs .techs-content h3 {
+  font-size: 22px !important ;
+  background: var(--bg-color);
+  padding: 15px 20px;
+  margin-bottom: 0px;
+  border: 2px solid var(--second-bg-color);
+  transition: 0.5s;
+}
+.techs .techs-content h3:hover {
+  cursor: pointer;
+  background-color: #171a20;
+  transform: scale(1.014);
+  color: var(--main-color);
+}
+.project-box .techs-btns {
+  background-color: #485366;
+  padding: 10px;
+}
+.project-box .techs-btns a:not(:last-child) {
+  margin-bottom: 10px;
+}
+.project-box .techs-btns a:hover {
+  color: #fff;
+  border-color: var(--main-color);
+}

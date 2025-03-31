@@ -1,0 +1,44 @@
+[
+  {
+    "project_id": 1,
+    "project_name": "Fetch repositories",
+    "repo_url": "https://github.com/MeladEssam/GetReposUsingXmlHttpReq",
+    "url": "https://meladessam.github.io/GetReposUsingXmlHttpReq/",
+    "technologies": ["html", "css", "js"]
+  },
+  {
+    "project_id": 2,
+    "project_name": "Resturant Food",
+    "repo_url": "https://github.com/MeladEssam/Resturant-food-website",
+    "url": "https://meladessam.github.io/Resturant-food-website/",
+    "technologies": ["html", "css"]
+  },
+  {
+    "project_id": 3,
+    "project_name": "Weather Application",
+    "repo_url": "https://github.com/MeladEssam/WeatherApplication",
+    "url": "https://meladessam.github.io/WeatherApplication/",
+    "technologies": ["html", "css", "js", "bootstrap", "api"]
+  },
+  {
+    "project_id": 4,
+    "project_name": "Cruds Application",
+    "repo_url": "https://github.com/MeladEssam/CrudsApp",
+    "url": "https://meladessam.github.io/CrudsApp/",
+    "technologies": ["html", "css", "js"]
+  },
+  {
+    "project_id": 5,
+    "project_name": "Get Posts And Comments",
+    "repo_url": "https://github.com/MeladEssam/GetPostsAndCommentsProject",
+    "url": "https://meladessam.github.io/GetPostsAndCommentsProject/",
+    "technologies": ["html", "css", "js", "api"]
+  },
+  {
+    "project_id": 6,
+    "project_name": "Alathan Times Application",
+    "repo_url": "https://github.com/MeladEssam/AlathanTimesApp",
+    "url": "https://meladessam.github.io/AlathanTimesApp/",
+    "technologies": ["html", "css", "js", "api"]
+  }
+]
