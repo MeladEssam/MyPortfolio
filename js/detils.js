@@ -1,5 +1,5 @@
-let url = window.location.origin.includes("github.io")
-  ? "https://meladessam.github.io/MyPortfolio/projects.json"
+let url = window.location.origin.includes("github.com")
+  ? "https://github.com/MeladEssam/MyPortfolio/blob/master/projects.json"
   : "../projects.json";
 
 // let url = `../projects.json`;
