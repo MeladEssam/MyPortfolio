@@ -7,7 +7,7 @@ if (
   window.location.href ==
   "https://meladessam.github.io/MyPortfolio/project_details.html"
 ) {
-  url = "https://meladessam.github.io/MyPortfolio/project_details.html";
+  url = "https://github.com/MeladEssam/MyPortfolio/blob/master/projects.json";
 } else {
   url = "../projects.json";
 }
