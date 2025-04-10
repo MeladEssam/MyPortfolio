@@ -40,5 +40,12 @@
     "repo_url": "https://github.com/MeladEssam/AlathanTimesApp",
     "url": "https://meladessam.github.io/AlathanTimesApp/",
     "technologies": ["html", "css", "js", "api"]
+  },
+  {
+    "project_id": 7,
+    "project_name": "Social Website",
+    "repo_url": "https://github.com/MeladEssam/Social-Website",
+    "url": "https://meladessam.github.io/Social-Website/",
+    "technologies": ["html", "css", "bootstrap", "js", "api"]
   }
 ]

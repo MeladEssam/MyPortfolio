@@ -1,6 +1,6 @@
-// let url = window.location.href.includes("github.com")
-//   ? "https://github.com/MeladEssam/MyPortfolio/blob/master/projects.json"
-//   : "../projects.json";
+let urlParms = new URLSearchParams(window.location.search);
+let projectId = urlParms.get("projectId");
+console.log(projectId);
 
 let url;
 if (window.location.origin.includes("github.io")) {
@@ -36,7 +36,7 @@ function showProjectDetails(projectsList) {
   techsContainer.innerHTML = "";
   techsBtnsElement.innerHTML = "";
   //get the project id
-  let projectId = localStorage.getItem("projectId");
+  // let projectId = localStorage.getItem("projectId");
   //project index : project id-1
   let theProject = projectsList[projectId - 1];
   console.log(theProject);
@@ -57,21 +57,20 @@ function showProjectDetails(projectsList) {
   // main-btn btn rounded-3 w-100
   let repoLink = document.createElement("a");
   repoLink.target = "_blank";
-  repoLink.classList.add("main-btn");
-  repoLink.classList.add("btn");
-  repoLink.classList.add("rounded-3");
-  repoLink.classList.add("w-100");
+  // repoLink.classList.add("main-btn");
+  // repoLink.classList.add("btn");
+  // repoLink.classList.add("rounded-3");
+  // repoLink.classList.add("w-100");
+
+  repoLink.classList.add("main-btn", "btn", "rounded-3", "w-100");
   repoLink.href = theProject.repo_url;
-  repoLink.appendChild(document.createTextNode("View Repo"));
+  repoLink.appendChild(document.createTextNode("View Project Repo"));
   techsBtnsElement.appendChild(repoLink);
 
   let websiteLink = document.createElement("a");
   websiteLink.target = "_blank";
-  websiteLink.classList.add("main-btn");
-  websiteLink.classList.add("btn");
-  websiteLink.classList.add("rounded-3");
-  websiteLink.classList.add("w-100");
+  websiteLink.classList.add("main-btn", "btn", "rounded-3", "w-100");
   websiteLink.href = theProject.url;
-  websiteLink.appendChild(document.createTextNode("Visit Website"));
+  websiteLink.appendChild(document.createTextNode("Live Site"));
   techsBtnsElement.appendChild(websiteLink);
 }
